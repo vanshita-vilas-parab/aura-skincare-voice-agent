@@ -180,9 +180,14 @@ function App() {
 
       if (callActive) {
         setStatus("Listening");
+
         setTimeout(() => {
-          startListening();
+          if (callActive) {
+            startListening();
+          }
         }, 500);
+      } else {
+        setStatus("Idle");
       }
     };
 
@@ -193,8 +198,12 @@ function App() {
       if (callActive) {
         setStatus("Listening");
         setTimeout(() => {
-          startListening();
+          if (callActive) {
+            startListening();
+          }
         }, 500);
+      }else {
+        setStatus("Idle");
       }
     };
 
