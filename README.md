@@ -353,7 +353,7 @@ I built a browser-based AI customer support agent using React, Flask, and the Gr
 
 ## Demo Video
 
-**Demo video:** Add your demo video link here.
+**Demo video:** [Demo video link](https://drive.google.com/file/d/1F68fwp33bWZz5XOghigZXszx6tmqV6Pb/view?usp=drivesdk)
 
 The 3–5 minute demonstration should cover:
 
